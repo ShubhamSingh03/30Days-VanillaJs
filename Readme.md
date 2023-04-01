@@ -6,7 +6,7 @@ This is a repository containing 30 projects built with vanilla JavaScript, each 
 
 ### [Live Link]()
 
-### [Youtube Playlist]()
+### [Youtube Playlist](https://www.youtube.com/playlist?list=PLxJdWO9UIcWX4la1rUkZj9F08QwVLFB9-)
 
 <br/>
 
@@ -16,7 +16,7 @@ This is a repository containing 30 projects built with vanilla JavaScript, each 
 
 Each project is listed below with a link to the project folder containing the code and a demo of the project.
 
-1. [Battery Indicator App]()
+1. [Battery Indicator App](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/01%20-%20Battery%20Indicator%20App)
 
 ## Technologies Used
 

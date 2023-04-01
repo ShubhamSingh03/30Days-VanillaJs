@@ -150,4 +150,8 @@ h1 a {
   h1 {
     font-size: 2rem;
   }
+  h1 a {
+    padding-top: 2px;
+    font-size: 12px;
+  }
 }

@@ -1,0 +1,153 @@
+body {
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  background-image: linear-gradient(to bottom left, #c1b0ae, #0a0b09);
+  position: relative;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  user-select: none;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 3rem;
+  position: absolute;
+  top: 5%;
+  color: #fcfcfc;
+}
+
+h1 a {
+  all: unset;
+  padding-top: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.selectiong {
+  position: absolute;
+}
+
+.main-container {
+  position: relative;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: rgba(141, 140, 140, 0.158);
+  border-radius: 10px;
+  height: 18em;
+  width: 28em;
+}
+
+.charging {
+  margin-top: 0.5em;
+  font-size: 1.81em;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+}
+
+.chargerblock {
+  position: relative;
+  width: 10em;
+  margin-top: 2em;
+  height: 4em;
+  border: solid white 5px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.percent {
+  background-color: #49e12e;
+  width: 0%;
+  height: 4em;
+  animation-name: fullcharge;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fullcharge {
+  from {
+  }
+  to {
+    width: 10em;
+  }
+}
+
+.chargeshowG {
+  background-color: #49e12e;
+  width: 100%;
+  height: 4em;
+}
+
+.chargeshowR {
+  background-color: #fe4042;
+  width: 100%;
+  height: 4em;
+}
+
+.full {
+  background-color: #49e12e;
+}
+
+.charger-container {
+  position: relative;
+}
+
+.sideone {
+  position: absolute;
+  top: 55%;
+  left: 99%;
+  height: 1.2em;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 0.5em;
+  background-color: white;
+}
+
+.sidetwo-icon {
+  visibility: hidden;
+  position: absolute;
+  top: 44%;
+  left: 40%;
+  height: 3em;
+  width: 3em;
+  border-radius: 10px;
+  background-color: #e7e7e7;
+  clip-path: polygon(58% 0, 52% 39%, 71% 39%, 23% 100%, 43% 50%, 21% 49%);
+}
+
+.batteryIndicator {
+  margin-top: 0.5em;
+  font-size: 2.25em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-weight: 700;
+}
+
+@media (max-width: 1112px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 412px) {
+  body {
+    font-size: 10px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}

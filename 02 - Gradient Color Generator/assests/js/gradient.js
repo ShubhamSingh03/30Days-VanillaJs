@@ -47,7 +47,7 @@ function copyToClipboard() {
     newestOnTop: true,
     progressBar: false,
     positionClass: "toast-top-center",
-    preventDuplicates: false,
+    preventDuplicates: true,
     showDuration: "200",
     hideDuration: "500",
     timeOut: "2500",

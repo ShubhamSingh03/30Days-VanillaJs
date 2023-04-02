@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assests/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assests/css/style.css" />
+    <title>Gradient Color Generator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/toastr@2.1/build/toastr.min.css"
+      integrity="sha256-R91pD48xW+oHbpJYGn5xR0Q7tMhH4xOrWn1QqMRINtA="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body id="body">
+    <div class="container">
+      <h1>
+        Gradient Color Generator
+        <a href="https://github.com/ShubhamSingh03/30Days-VanillaJs"
+          >#30Days-Vanillajs</a
+        >
+      </h1>
+
+      <div class="input-group-colors">
+        <input
+          type="color"
+          name="gradient-color-one"
+          id="color_one"
+          value="#14db2c"
+        />
+        <input
+          type="color"
+          name="gradient-color-two"
+          id="color_two"
+          value="#6aaee2"
+        />
+      </div>
+      <div class="buttons">
+        <button class="active" data-direction="to top">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+        <button data-direction="to bottom">
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <button data-direction="to left">
+          <i class="fas fa-arrow-left"></i>
+        </button>
+        <button data-direction="to right">
+          <i class="fas fa-arrow-right"></i>
+        </button>
+        <button data-direction="to top right">
+          <i class="fas fa-arrow-up" style="transform: rotate(45deg)"></i>
+        </button>
+        <button data-direction="to bottom left">
+          <i class="fas fa-arrow-down" style="transform: rotate(45deg)"></i>
+        </button>
+        <button data-direction="to top left">
+          <i class="fas fa-arrow-left" style="transform: rotate(45deg)"></i>
+        </button>
+        <button data-direction="to bottom right">
+          <i class="fas fa-arrow-right" style="transform: rotate(45deg)"></i>
+        </button>
+      </div>
+      <div class="submit">
+        <button id="submit">Generate Gradient</button>
+      </div>
+      <div class="output">
+        <textarea id="output-value" rows="2"></textarea>
+        <button id="copy">Copy</button>
+      </div>
+    </div>
+    <script src="./assests/js/gradient.js"></script>
+
+    <!-- jquery & toastr cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/toastr@2.1/build/toastr.min.js"
+      integrity="sha256-Hgwq1OBpJ276HUP9H3VJkSv9ZCGRGQN+JldPJ8pNcUM="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

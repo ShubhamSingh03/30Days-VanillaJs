@@ -20,6 +20,8 @@ Each project is listed below with a link to the project folder containing the co
 
 2. [Gradient Color Generator](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/02%20-%20Gradient%20Color%20Generator)
 
+3. [Captcha Generator](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/03%20-%20Captcha%20Generator)
+
 ## Technologies Used
 
 - HTML5

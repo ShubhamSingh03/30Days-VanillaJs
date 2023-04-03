@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Captcha Generator</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <h1>CAPTCHA GENERATOR</h1>
+        <a href="">#30Days-Vanillajs</a>
+      </header>
+      <div class="captcha-container">
+        <div class="captcha-img">
+          <img src="./assets/img/captcha-bg.png" alt="captcha-bg" />
+          <span class="captcha"></span>
+        </div>
+        <button class="reload">
+          <i class="fas fa-redo-alt"></i>
+        </button>
+      </div>
+      <form action="#" class="input-text">
+        <input
+          type="text"
+          placeholder="Enter captcha here.."
+          maxlength="6"
+          spellcheck="false"
+          required
+        />
+        <button class="verify">Check</button>
+      </form>
+      <div class="response"></div>
+    </div>
+    <script src="./assets/js/captcha.js"></script>
+  </body>
+</html>

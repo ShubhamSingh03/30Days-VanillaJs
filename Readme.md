@@ -22,6 +22,8 @@ Each project is listed below with a link to the project folder containing the co
 
 3. [Captcha Generator](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/03%20-%20Captcha%20Generator)
 
+4. [Shimmer Effect](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/04%20-%20Shimmer%20Effect)
+
 ## Technologies Used
 
 - HTML5

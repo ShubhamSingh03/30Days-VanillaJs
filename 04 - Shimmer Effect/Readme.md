@@ -2,9 +2,9 @@
 
 The project is a web application that displays cards with a shimmer effect, which was created using HTML, CSS, and JavaScript. In addition to the shimmer effect, the application uses the Random User API and Splash API to generate random user information and background images for the card.
 
-#### [Live Link]()
+#### [Live Link](https://shimmer-effect.netlify.app/)
 
-#### [Youtube Demo]()
+#### [Youtube Demo](https://youtu.be/wmIn197kj5k)
 
 ### API used:
 

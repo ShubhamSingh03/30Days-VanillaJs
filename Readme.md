@@ -24,6 +24,8 @@ Each project is listed below with a link to the project folder containing the co
 
 4. [Shimmer Effect](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/04%20-%20Shimmer%20Effect)
 
+5. [Dice Roll Game](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/05%20-%20Dice%20Roll%20Game)
+
 ## Technologies Used
 
 - HTML5

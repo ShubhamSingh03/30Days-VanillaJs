@@ -12,7 +12,7 @@ To play the game, simply choose one of the three options (rock, paper, or scisso
 
 ## Try it Out
 
-#### [Live Link]()
+#### [Live Link](https://rps-vanillajs.netlify.app/)
 
 #### [Youtube Demo](https://youtu.be/C5CkGn6bYrI)
 

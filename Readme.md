@@ -26,6 +26,8 @@ Each project is listed below with a link to the project folder containing the co
 
 5. [Dice Roll Game](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/05%20-%20Dice%20Roll%20Game)
 
+6. [Rock Paper Scissors](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/06%20-%20Rock%20Paper%20Scissors)
+
 ## Technologies Used
 
 - HTML5

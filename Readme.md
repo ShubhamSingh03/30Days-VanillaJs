@@ -28,6 +28,8 @@ Each project is listed below with a link to the project folder containing the co
 
 6. [Rock Paper Scissors](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/06%20-%20Rock%20Paper%20Scissors)
 
+7. [Analog Clock](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/07%20-%20Analog%20Clock)
+
 ## Technologies Used
 
 - HTML5

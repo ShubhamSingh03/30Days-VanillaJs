@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.light {
+  --header-text-color: #151d2a;
+  --background-image: url("../img/clock-light.png");
+  --background-color: #ededed;
+  --box-shadow: 6px 6px 8px #dcdcdc, -6px -6px 8px #fefefe,
+    inset 6px 6px 8px #dcdcdc, inset -6px -6px 8px #fefefe;
+  --border-width-color: #ededed;
+  --clock-main-wheel: #3497cc;
+  --clock-hour-hand: #ff3d68;
+  --clock-minute-hand: #30303b;
+  --clock-second-hand: #3497cc;
+}
+
+.dark {
+  --header-text-color: #ffffff;
+  --background-image: url("../img/clock-dark.png");
+  --background-color: #151d2a;
+  --box-shadow: -4px -4px 6px rgba(60, 60, 60, 0.5),
+    inset 4px 4px 6px rgba(0, 0, 0, 0.5),
+    inset -4px -4px 6px rgba(60, 60, 60, 0.3), 4px 4px 6px rgba(10, 10, 10, 0.3);
+  --border-width-color: #1b2021;
+  --clock-main-wheel: #ffffff;
+  --clock-hour-hand: #ff3d68;
+  --clock-minute-hand: #ffffff;
+  --clock-second-hand: #39a2db;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  background: var(--background-color);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  color: var(--header-text-color);
+}
+
+.header a {
+  all: unset;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/*
+ Toggle button styles  
+*/
+
+.toggle {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+  height: 60px;
+  border-radius: 50px;
+  transition: 0.2s;
+}
+
+.toggle i {
+  width: 50%;
+  line-height: 60px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 1;
+}
+
+.toggle .ball {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  margin: 7.5px;
+  border-radius: 50%;
+  transition: 0.3s ease-out;
+}
+
+input {
+  display: none;
+}
+
+/* 
+ Clock styles
+*/
+.clock {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 12px solid var(--border-width-color);
+  border-radius: 50%;
+  background: var(--background-image);
+  background-size: cover;
+  box-shadow: var(--box-shadow);
+}
+
+.clock::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: var(--clock-main-wheel);
+  border-radius: 50%;
+  z-index: 15;
+}
+
+.clock .hour,
+.clock .minute,
+.clock .second {
+  position: absolute;
+}
+
+.clock .hour,
+.clock .hour .hr {
+  width: 160px;
+  height: 160px;
+}
+
+.clock .minute,
+.clock .minute .min {
+  width: 190px;
+  height: 190px;
+}
+
+.clock .second,
+.clock .second .sec {
+  width: 230px;
+  height: 230px;
+}
+
+.clock .hour .hr,
+.clock .minute .min,
+.clock .second .sec {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.clock .hour .hr::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 80px;
+  background: var(--clock-hour-hand);
+  z-index: 10;
+  border-radius: 10px;
+}
+
+.clock .minute .min::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 90px;
+  background: var(--clock-minute-hand);
+  z-index: 11;
+  border-radius: 8px;
+}
+
+.clock .second .sec::before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 140px;
+  background: var(--clock-second-hand);
+  z-index: 12;
+  border-radius: 2px;
+}
+
+/*
+  Light Mode
+*/
+
+.light .toggle {
+  background: linear-gradient(145deg, #e1e1e1, #fff);
+  box-shadow: 3px 3px 4px #e6e6e6, -3px -3px 4px #ffffff;
+}
+
+.light .toggle .bxs-sun {
+  color: #fafafa;
+}
+
+.light .toggle .bx-moon {
+  color: #151d2a;
+}
+
+.light .toggle .ball {
+  background: #151d2a;
+}
+
+/*
+  Dark Mode
+*/
+
+.dark .toggle {
+  background: #151d2a;
+  box-shadow: 3px 3px 3px #0e131b, -3px -3px 3px #1c2739;
+}
+
+.dark .toggle .bx-sun {
+  color: #fafafa;
+}
+
+.dark .toggle .bxs-moon {
+  color: #151d2a;
+}
+
+.dark .toggle .ball {
+  background: #fafafa;
+  transform: translateX(60px);
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1150px) {
+  .clock {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 596px) {
+  .clock {
+    width: 250px;
+    height: 250px;
+  }
+  .clock .second,
+  .clock .second .sec {
+    width: 200px;
+    height: 190px;
+  }
+}

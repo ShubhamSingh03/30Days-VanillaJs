@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Analog Clock</title>
+  </head>
+  <body class="light">
+    <!-- Header -->
+    <div class="header">
+      <h1>Analog Clock with Light/Dark Mode Toggle</h1>
+      <a href="https://github.com/ShubhamSingh03/30Days-VanillaJs"
+        >#30Days-Vanillajs</a
+      >
+    </div>
+    <!-- Toggle checkbox -->
+    <input type="checkbox" id="toggle" />
+    <label class="toggle" for="toggle">
+      <i class="bx bxs-sun"></i>
+      <i class="bx bx-moon"></i>
+      <span class="ball"></span>
+    </label>
+    <!-- Clock -->
+    <div class="clock">
+      <div class="hour">
+        <span class="hr" id="hour-hand"></span>
+      </div>
+      <div class="minute">
+        <span class="min" id="minute-hand"></span>
+      </div>
+      <div class="second">
+        <span class="sec" id="second-hand"></span>
+      </div>
+    </div>
+    <!-- script -->
+    <script type="text/javascript" src="./assets/js/analogClock.js"></script>
+  </body>
+</html>

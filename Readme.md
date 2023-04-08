@@ -30,6 +30,8 @@ Each project is listed below with a link to the project folder containing the co
 
 7. [Analog Clock](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/07%20-%20Analog%20Clock)
 
+8. [Digital Clock](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/08%20-%20Digital%20Clock)
+
 ## Technologies Used
 
 - HTML5

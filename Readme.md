@@ -32,6 +32,8 @@ Each project is listed below with a link to the project folder containing the co
 
 8. [Digital Clock](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/08%20-%20Digital%20Clock)
 
+9. [Keyboard Info](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/09%20-%20Keyboard%20Info)
+
 ## Technologies Used
 
 - HTML5

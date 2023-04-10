@@ -1,0 +1,4 @@
+[build]
+  publish = "public"
+  command = "npm build"
+  ignore = "./assets/js/config.js"

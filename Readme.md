@@ -34,6 +34,8 @@ Each project is listed below with a link to the project folder containing the co
 
 9. [Keyboard Info](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/09%20-%20Keyboard%20Info)
 
+10. [Minimalistic Weather App](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/10%20-%20Minimalistic%20Weather%20App)
+
 ## Technologies Used
 
 - HTML5

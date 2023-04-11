@@ -36,6 +36,8 @@ Each project is listed below with a link to the project folder containing the co
 
 10. [Minimalistic Weather App](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/10%20-%20Minimalistic%20Weather%20App)
 
+11. [Image Slider](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/11%20-%20Image%20Slider)
+
 ## Technologies Used
 
 - HTML5

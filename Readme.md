@@ -38,6 +38,8 @@ Each project is listed below with a link to the project folder containing the co
 
 11. [Image Slider](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/11%20-%20Image%20Slider)
 
+12. [Percentage Calculator](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/12%20-%20Percentage%20Calculator)
+
 ## Technologies Used
 
 - HTML5

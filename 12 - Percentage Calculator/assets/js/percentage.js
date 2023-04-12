@@ -31,7 +31,7 @@ calculateButton[0].addEventListener("click", () => {
     mathsScore +
     computerScienceScore +
     englishScore;
-  const percentage = (totalScore / 500) * 100;
+  const percentage = ((totalScore / 500) * 100).toFixed(2);
   let grade;
 
   if (percentage >= 80) {

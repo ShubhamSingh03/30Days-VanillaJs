@@ -4,9 +4,9 @@ This is a simple project that demonstrates how to animate number counters using 
 
 ## Check it out
 
-#### [Live Link]()
+#### [Live Link](https://animating-num.netlify.app/)
 
-#### [Youtube Demo]()
+#### [Youtube Demo](https://youtu.be/QvpAi4j9P8Y)
 
 <br/>
 

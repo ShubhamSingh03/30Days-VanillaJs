@@ -40,6 +40,8 @@ Each project is listed below with a link to the project folder containing the co
 
 12. [Percentage Calculator](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/12%20-%20Percentage%20Calculator)
 
+13. [Animating Number Counters](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/13%20-%20Animating%20Number%20Counters)
+
 ## Technologies Used
 
 - HTML5

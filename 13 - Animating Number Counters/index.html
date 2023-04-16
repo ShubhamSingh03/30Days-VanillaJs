@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Animating Number Counters</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Animating Number Counters</h1>
+      <a href="https://github.com/ShubhamSingh03/30Days-VanillaJs"
+        >#30Days-Vanillajs</a
+      >
+    </div>
+    <section>
+      <article>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 36 36"
+          class="injected-svg"
+          data-src="https://static.elfsight.com/icons/app-number-counter-case-multicolor.svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <linearGradient
+              id="f-19"
+              x1="99.294%"
+              x2="531.271%"
+              y1="203.824%"
+              y2="1550.283%"
+            >
+              <stop offset="0%" stop-color="#8C6239"></stop>
+              <stop offset="100%" stop-color="#42210B"></stop>
+            </linearGradient>
+            <linearGradient
+              id="a-20"
+              x1="50%"
+              x2="50%"
+              y1="-137.667%"
+              y2="74.381%"
+            >
+              <stop offset="0%" stop-color="#B76161"></stop>
+              <stop offset="100%" stop-color="#5C1300"></stop>
+            </linearGradient>
+            <linearGradient
+              id="c-21"
+              x1="-18.636%"
+              x2="16.667%"
+              y1="23.57%"
+              y2="37.013%"
+            >
+              <stop offset="0%" stop-color="#332626"></stop>
+              <stop offset="100%" stop-color="#2B2424"></stop>
+            </linearGradient>
+            <linearGradient
+              id="d-22"
+              x1="-18.636%"
+              x2="16.667%"
+              y1="32.258%"
+              y2="41.283%"
+            >
+              <stop offset="0%" stop-color="#332626"></stop>
+              <stop offset="100%" stop-color="#2B2424"></stop>
+            </linearGradient>
+            <linearGradient
+              id="e-23"
+              x1="50%"
+              x2="50%"
+              y1="-137.667%"
+              y2="74.381%"
+            >
+              <stop offset="0%" stop-color="#B76161"></stop>
+              <stop offset="100%" stop-color="#5C1300"></stop>
+            </linearGradient>
+            <linearGradient
+              id="b-24"
+              x1="50%"
+              x2="50%"
+              y1="-137.667%"
+              y2="74.381%"
+            >
+              <stop offset="0%" stop-color="#B76161"></stop>
+              <stop offset="100%" stop-color="#5C1300"></stop>
+            </linearGradient>
+            <linearGradient
+              id="g-25"
+              x1="58.359%"
+              x2="161.187%"
+              y1="52.869%"
+              y2="86.127%"
+            >
+              <stop offset="0%" stop-color="#9E6356"></stop>
+              <stop offset="100%" stop-color="#333"></stop>
+            </linearGradient>
+            <linearGradient
+              id="h-26"
+              x1="-16.231%"
+              x2="415.746%"
+              y1="-156.374%"
+              y2="1190.227%"
+            >
+              <stop offset="0%" stop-color="#8C6239"></stop>
+              <stop offset="100%" stop-color="#42210B"></stop>
+            </linearGradient>
+            <linearGradient
+              id="i-27"
+              x1="15.563%"
+              x2="33.275%"
+              y1="-86.897%"
+              y2="-17.264%"
+            >
+              <stop offset="0%" stop-color="#332626"></stop>
+              <stop offset="100%" stop-color="#2B2424"></stop>
+            </linearGradient>
+            <linearGradient
+              id="j-28"
+              x1="50%"
+              x2="50%"
+              y1="-137.667%"
+              y2="74.381%"
+            >
+              <stop offset="0%" stop-color="#FFAA27"></stop>
+              <stop offset="100%" stop-color="#C4691D"></stop>
+            </linearGradient>
+            <linearGradient
+              id="k-29"
+              x1="25.442%"
+              x2="72.215%"
+              y1="100%"
+              y2="4.771%"
+            >
+              <stop offset="0%" stop-color="#FF8008"></stop>
+              <stop offset="100%" stop-color="#FFC837"></stop>
+            </linearGradient>
+          </defs>
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h36v36H0z"></path>
+            <g fill-rule="nonzero">
+              <path
+                fill="url(#a-20)"
+                d="M21.12 6.72a1.28 1.28 0 0 1-1.28-1.28V2.56h-7.68v2.88a1.28 1.28 0 1 1-2.56 0V2.56A2.56 2.56 0 0 1 12.16 0h7.68a2.56 2.56 0 0 1 2.56 2.56v2.88a1.28 1.28 0 0 1-1.28 1.28z"
+                transform="translate(2 5)"
+              ></path>
+              <path
+                fill="url(#b-24)"
+                d="M30.08 26.56H1.92A1.92 1.92 0 0 1 0 24.64V13.28a.64.64 0 0 1 .64-.64h30.72a.64.64 0 0 1 .64.64v11.36c0 1.06-.86 1.92-1.92 1.92z"
+                transform="translate(2 5)"
+              ></path>
+              <path
+                fill="url(#c-21)"
+                d="M31.36 12.64h-.422v11.2c0 1.06-.86 1.92-1.92 1.92H.858a1.955 1.955 0 0 1-.538-.08c.35.544.952.875 1.6.88h28.16c1.06 0 1.92-.86 1.92-1.92V13.28a.64.64 0 0 0-.64-.64z"
+                transform="translate(2 5)"
+              ></path>
+              <path
+                fill="url(#d-22)"
+                d="M30.08 16.94h-3.84a.64.64 0 0 1-.64-.64v-1.92a.64.64 0 0 0-.64-.64h-1.6a.64.64 0 0 0-.64.64v1.92a.64.64 0 0 1-.64.64H9.92a.64.64 0 0 1-.64-.64v-1.92a.64.64 0 0 0-.64-.64h-1.6a.64.64 0 0 0-.64.64v1.92a.64.64 0 0 1-.64.64H1.92A1.92 1.92 0 0 1 0 15.02V7.34c0-1.06.86-1.92 1.92-1.92h28.16c1.06 0 1.92.86 1.92 1.92v7.68a1.92 1.92 0 0 1-1.92 1.92z"
+                transform="translate(2 5)"
+              ></path>
+              <path
+                fill="url(#e-23)"
+                d="M30.08 16.32h-3.84a.64.64 0 0 1-.64-.64v-1.92a.64.64 0 0 0-.64-.64h-1.6a.64.64 0 0 0-.64.64v1.92a.64.64 0 0 1-.64.64H9.92a.64.64 0 0 1-.64-.64v-1.92a.64.64 0 0 0-.64-.64h-1.6a.64.64 0 0 0-.64.64v1.92a.64.64 0 0 1-.64.64H1.92A1.92 1.92 0 0 1 0 14.4V6.72C0 5.66.86 4.8 1.92 4.8h28.16c1.06 0 1.92.86 1.92 1.92v7.68c0 1.06-.86 1.92-1.92 1.92z"
+                transform="translate(2 5)"
+              ></path>
+              <path
+                fill="url(#f-19)"
+                d="M9.952 14.7a.64.64 0 0 0-.64-.64H9.28v1.62c0 .353.287.64.64.64h.032V14.7z"
+                transform="translate(2 5)"
+              ></path>
+              <path
+                fill="url(#g-25)"
+                d="M.672 15.34V7.66c0-1.06.86-1.92 1.92-1.92h28.16a1.92 1.92 0 0 1 1.155.391A1.92 1.92 0 0 0 30.08 4.8H1.92C.86 4.8 0 5.66 0 6.72v7.68a1.92 1.92 0 0 0 .765 1.53 1.891 1.891 0 0 1-.093-.59z"
+                transform="translate(2 5)"
+              ></path>
+              <path
+                fill="url(#h-26)"
+                d="M26.272 14.7a.64.64 0 0 0-.64-.64H25.6v1.62c0 .353.287.64.64.64h.032V14.7z"
+                transform="translate(2 5)"
+              ></path>
+              <path
+                fill="url(#i-27)"
+                d="M8.96 19.84h-1.6a1.92 1.92 0 0 1-1.92-1.92v-3.84c0-1.06.86-1.92 1.92-1.92h1.6c1.06 0 1.92.86 1.92 1.92v3.84c0 1.06-.86 1.92-1.92 1.92z"
+                transform="translate(2 5)"
+              ></path>
+              <path
+                fill="url(#j-28)"
+                d="M8.64 19.52h-1.6a1.92 1.92 0 0 1-1.92-1.92v-3.84c0-1.06.86-1.92 1.92-1.92h1.6c1.06 0 1.92.86 1.92 1.92v3.84c0 1.06-.86 1.92-1.92 1.92z"
+                transform="translate(2 5)"
+              ></path>
+              <path
+                fill="url(#k-29)"
+                d="M5.597 18.102v-3.84c0-1.06.86-1.92 1.92-1.92h1.6c.405.003.799.135 1.123.378a1.92 1.92 0 0 0-1.6-.88h-1.6c-1.06 0-1.92.86-1.92 1.92v3.84c0 .61.292 1.184.784 1.546a1.92 1.92 0 0 1-.307-1.044z"
+                transform="translate(2 5)"
+              ></path>
+              <path
+                fill="url(#i-27)"
+                d="M25.28 19.84h-1.6a1.92 1.92 0 0 1-1.92-1.92v-3.84c0-1.06.86-1.92 1.92-1.92h1.6c1.06 0 1.92.86 1.92 1.92v3.84c0 1.06-.86 1.92-1.92 1.92z"
+                transform="translate(2 5)"
+              ></path>
+              <path
+                fill="url(#j-28)"
+                d="M24.96 19.52h-1.6a1.92 1.92 0 0 1-1.92-1.92v-3.84c0-1.06.86-1.92 1.92-1.92h1.6c1.06 0 1.92.86 1.92 1.92v3.84c0 1.06-.86 1.92-1.92 1.92z"
+                transform="translate(2 5)"
+              ></path>
+              <path
+                fill="url(#k-29)"
+                d="M21.917 18.102v-3.84c0-1.06.86-1.92 1.92-1.92h1.6c.405.003.799.135 1.123.378a1.92 1.92 0 0 0-1.6-.88h-1.6c-1.06 0-1.92.86-1.92 1.92v3.84c0 .61.292 1.184.784 1.546a1.92 1.92 0 0 1-.307-1.044z"
+                transform="translate(2 5)"
+              ></path>
+            </g>
+          </g>
+        </svg>
+        <span class="number" data-value="200">0</span>
+        <p>Succeeded Projects</p>
+      </article>
+      <article>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 36 36"
+          class="injected-svg"
+          data-src="https://static.elfsight.com/icons/app-number-counter-clocks-multicolor.svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <linearGradient
+              id="a-17"
+              x1="-23.86%"
+              x2="-6.1%"
+              y1="-6.336%"
+              y2="7.21%"
+            >
+              <stop offset="0%" stop-color="#00C6FF"></stop>
+              <stop offset="100%" stop-color="#0072FF"></stop>
+            </linearGradient>
+            <linearGradient
+              id="b-18"
+              x1="-1.015%"
+              x2="155.855%"
+              y1="10.736%"
+              y2="131.47%"
+            >
+              <stop offset="0%" stop-color="#00C6FF"></stop>
+              <stop offset="100%" stop-color="#0072FF"></stop>
+            </linearGradient>
+            <linearGradient
+              id="c-19"
+              x1="-54.012%"
+              x2="182.286%"
+              y1="-34.31%"
+              y2="157.25%"
+            >
+              <stop offset="0%" stop-color="#F3F7FF"></stop>
+              <stop offset="100%" stop-color="#CDD9FF"></stop>
+            </linearGradient>
+            <linearGradient
+              id="d-20"
+              x1="12.717%"
+              x2="15.475%"
+              y1="-1.31%"
+              y2="1.714%"
+            >
+              <stop offset="0%" stop-color="#00C6FF"></stop>
+              <stop offset="100%" stop-color="#0072FF"></stop>
+            </linearGradient>
+            <linearGradient
+              id="e-21"
+              x1="50.854%"
+              x2="48.396%"
+              y1="31.534%"
+              y2="76.103%"
+            >
+              <stop offset="0%" stop-color="#FF6382"></stop>
+              <stop offset="100%" stop-color="#EA366D"></stop>
+            </linearGradient>
+          </defs>
+          <path
+            fill="url(#a-17)"
+            d="M16.439 31.199A15.564 15.564 0 1 1 32 15.64c-.012 8.588-6.973 15.547-15.561 15.558z"
+            transform="translate(2 2)"
+          ></path>
+          <path
+            fill="url(#b-18)"
+            d="M15.64 31.208C7.046 31.208.078 24.241.078 15.645.076 7.05 7.043.081 15.639.08c8.595-.001 15.564 6.965 15.566 15.56-.007 8.594-6.97 15.56-15.564 15.568z"
+            transform="translate(2 2)"
+          ></path>
+          <path
+            fill="url(#c-19)"
+            d="M15.64 29.047c-7.403 0-13.406-6.002-13.406-13.406 0-7.404 6.003-13.407 13.407-13.407s13.406 6.003 13.406 13.407c-.008 7.4-6.006 13.398-13.406 13.406z"
+            transform="translate(2 2)"
+          ></path>
+          <path
+            fill="#3C4276"
+            d="M5.032 18.18h1.865a.536.536 0 1 0 0-1.072H5.032c-.019.357-.019.715 0 1.072z"
+          ></path>
+          <path
+            fill="url(#d-20)"
+            d="M3.03 15.64C3.025 8.39 8.79 2.45 16.04 2.235h-.4c-7.403 0-13.406 6.003-13.406 13.407s6.003 13.406 13.407 13.406h.399C8.794 28.825 3.034 22.89 3.03 15.641z"
+            transform="translate(2 2)"
+          ></path>
+          <path
+            fill="url(#e-21)"
+            d="M14.572 16.87 7.587 9.895A1.073 1.073 0 0 1 9.104 8.38l6.55 6.537 7.98-2.09a1.073 1.073 0 0 1 .542 2.074l-8.58 2.235a1.07 1.07 0 0 1-1.024-.265z"
+            transform="translate(2 2)"
+          ></path>
+          <path
+            fill="#3C4276"
+            d="M29.174 18.18h1.864v-1.072h-1.864a.536.536 0 1 0 0 1.072zM17.105 29.177v1.87c.357.02.715.02 1.072 0v-1.86a.536.536 0 0 0-1.072-.01zm0-24.927v1.865a.536.536 0 0 0 1.072 0V4.25a10.088 10.088 0 0 0-1.072 0z"
+          ></path>
+        </svg>
+        <span class="number" data-value="9140">0</span>
+        <p>Working Hours</p>
+      </article>
+      <article>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 36 36"
+          class="injected-svg"
+          data-src="https://static.elfsight.com/icons/app-number-counter-heart-multicolor.svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <linearGradient
+              id="a-16"
+              x1="126.693%"
+              x2="2.314%"
+              y1="10.101%"
+              y2="108.886%"
+            >
+              <stop offset="0%" stop-color="#FF6D77"></stop>
+              <stop offset="100%" stop-color="#FF0A28"></stop>
+            </linearGradient>
+          </defs>
+          <path
+            fill="url(#a-16)"
+            d="M29.47 2.615c-3.301-3.37-8.736-3.368-12.148-.112l-.608.58a1.018 1.018 0 0 1-1.406 0l-.608-.58C11.29-.753 5.854-.754 2.553 2.615a8.582 8.582 0 0 0 .203 12.216L15.31 26.813a1.017 1.017 0 0 0 1.405 0l12.553-11.982a8.582 8.582 0 0 0 .202-12.216z"
+            transform="matrix(-1 0 0 1 34 4)"
+          ></path>
+          <path
+            fill="#E42A3E"
+            d="M25.984 19.405c3.456-3.3 5.556-9.793 2.202-13.216-.41-.418-2.852-1.784-3.32-2.099 2.38-.134 4.793.7 6.58 2.525a8.582 8.582 0 0 1-.202 12.216L18.691 30.813c-.393.376 7.075-11.2 7.293-11.408z"
+          ></path>
+        </svg>
+        <span class="number" data-value="500">0</span>
+        <p>Happy Clients</p>
+      </article>
+      <article>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 36 36"
+          class="injected-svg"
+          data-src="https://static.elfsight.com/icons/app-number-counter-cup-multicolor.svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <linearGradient
+              id="a-11"
+              x1="27.373%"
+              x2="45.94%"
+              y1="-34.331%"
+              y2="34.868%"
+            >
+              <stop offset="0%" stop-color="#FDC830"></stop>
+              <stop offset="100%" stop-color="#F37335"></stop>
+            </linearGradient>
+            <linearGradient
+              id="b-12"
+              x1="38.266%"
+              x2="62.699%"
+              y1="-22.177%"
+              y2="92.949%"
+            >
+              <stop offset="0%" stop-color="#FDC830"></stop>
+              <stop offset="100%" stop-color="#F37335"></stop>
+            </linearGradient>
+            <linearGradient
+              id="c-13"
+              x1="50.975%"
+              x2="49.725%"
+              y1="11.352%"
+              y2="75.906%"
+            >
+              <stop offset="0%" stop-color="#FDC830"></stop>
+              <stop offset="100%" stop-color="#F37335"></stop>
+            </linearGradient>
+            <linearGradient
+              id="d-14"
+              x1="-56.407%"
+              x2="-49.598%"
+              y1="27.725%"
+              y2="29.689%"
+            >
+              <stop offset="0%" stop-color="#FDC830"></stop>
+              <stop offset="100%" stop-color="#F37335"></stop>
+            </linearGradient>
+            <linearGradient
+              id="e-15"
+              x1="49.299%"
+              x2="50.973%"
+              y1="-34.448%"
+              y2="122.1%"
+            >
+              <stop offset="0%" stop-color="#FDC830"></stop>
+              <stop offset="100%" stop-color="#F37335"></stop>
+            </linearGradient>
+            <linearGradient
+              id="f-16"
+              x1="32.859%"
+              x2="62.846%"
+              y1="1.693%"
+              y2="79.635%"
+            >
+              <stop offset="0%" stop-color="#FDC830"></stop>
+              <stop offset="100%" stop-color="#F37335"></stop>
+            </linearGradient>
+            <linearGradient
+              id="g-17"
+              x1="108.669%"
+              x2="147.307%"
+              y1="147.241%"
+              y2="210.144%"
+            >
+              <stop offset="0%" stop-color="#FDC830"></stop>
+              <stop offset="100%" stop-color="#F37335"></stop>
+            </linearGradient>
+          </defs>
+          <path
+            fill="url(#a-11)"
+            d="M23.707 18.905a1.06 1.06 0 0 1-1.06-1.093c.019-.58.52-1.022 1.099-1.027 3.272-.022 5.928-2.931 5.928-6.503V3.36h-5.931c-.565 0-1.058-.426-1.094-.99a1.06 1.06 0 0 1 1.058-1.13h7.027c.585 0 1.06.475 1.06 1.06v7.982c0 4.754-3.628 8.623-8.087 8.623z"
+            transform="translate(2 3)"
+          ></path>
+          <path
+            fill="url(#b-12)"
+            d="M8.048 18.904C3.608 18.882 0 15.022 0 10.281v-7.98c0-.586.475-1.06 1.06-1.06h6.99c.565 0 1.058.426 1.094.99a1.06 1.06 0 0 1-1.057 1.13H2.12v6.921c0 3.586 2.676 6.503 5.967 6.503.605 0 1.09.507 1.058 1.119-.03.568-.527 1.003-1.097 1z"
+            transform="translate(2 3)"
+          ></path>
+          <path
+            fill="url(#c-13)"
+            d="M24.877 29.184c-2.071-.502-4.061-.909-5.892-1.131a1.625 1.625 0 0 1-1.434-1.612v-5.884h-3.309v5.884c0 .823-.616 1.512-1.434 1.612-1.83.222-3.82.63-5.892 1.131-.235.057-.19.373.054.373 5.942.45 11.91.45 17.852 0 .244 0 .29-.316.055-.373z"
+            transform="translate(2 3)"
+          ></path>
+          <path
+            fill="url(#d-14)"
+            d="M24.877 29.184c-2.071-.502-4.061-.909-5.892-1.131a1.625 1.625 0 0 1-1.434-1.612v-5.884l-3.309 3.556v.326c1.88.195 2.418.547 2.346 2.002 0 .823.624 1.662 1.442 1.761 1.83.223 3.63.6 5.733.947.477.078.34.41.097.41-2.812.212-5.629.322-8.445.334 3.138.013 6.277-.098 9.407-.335.244 0 .29-.317.055-.374z"
+            transform="translate(2 3)"
+          ></path>
+          <path
+            fill="url(#e-15)"
+            d="M16.327 24.193h-.86a9.172 9.172 0 0 1-9.173-9.172L6.288.05h19.205l.006 14.97a9.172 9.172 0 0 1-9.172 9.172z"
+            transform="translate(2 3)"
+          ></path>
+          <path
+            fill="url(#f-16)"
+            d="M25.493.051H24.04l.005 14.081a9.172 9.172 0 0 1-9.172 9.173h-.86a9.137 9.137 0 0 1-4.034-.934 9.134 9.134 0 0 0 5.489 1.822h.86a9.172 9.172 0 0 0 9.172-9.172L25.493.05z"
+            transform="translate(2 3)"
+          ></path>
+          <path
+            fill="url(#g-17)"
+            d="m15.897 4.54 1.748 3.54 3.908.569-2.828 2.757.668 3.892-3.496-1.837-3.496 1.837.668-3.892-2.828-2.757 3.908-.568z"
+            transform="translate(2 3)"
+          ></path>
+        </svg>
+        <span class="number" data-value="12">0</span>
+        <p>Awards</p>
+      </article>
+    </section>
+    <script src="./assets/js/number.js"></script>
+  </body>
+</html>

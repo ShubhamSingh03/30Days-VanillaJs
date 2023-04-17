@@ -42,6 +42,8 @@ Each project is listed below with a link to the project folder containing the co
 
 13. [Animating Number Counters](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/13%20-%20Animating%20Number%20Counters)
 
+14. [Temperature Converter](https://github.com/ShubhamSingh03/30Days-VanillaJs/tree/main/14%20-%20Temperature%20Converter)
+
 ## Technologies Used
 
 - HTML5

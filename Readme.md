@@ -4,7 +4,7 @@ This is a repository containing 30 projects built with vanilla JavaScript, each 
 
 ## View All Projects here
 
-### [Live Link]()
+### [Live Link](https://30days-vanillajs.netlify.app/)
 
 ### [Youtube Playlist](https://www.youtube.com/playlist?list=PLxJdWO9UIcWX4la1rUkZj9F08QwVLFB9-)
 
